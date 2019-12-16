@@ -15,6 +15,8 @@ public class PlayerInteraction : MonoBehaviour
     private Material interactibleMaterial;
     [SerializeField]
     private Material nonInteractibleMaterial;
+    private bool interactButtonDown;
+    private bool isInteracting;
     #endregion
 
     #region Getters & Setters
@@ -61,6 +63,17 @@ public class PlayerInteraction : MonoBehaviour
     {
         this.interactLayer = interactLayer;
     }//End interaction layer setter
+
+    //Is Interacting Getter
+    public bool getIsInteracting()
+    {
+        return isInteracting;
+    }//End Is Interacting Getter
+    //Is Interacting Setter
+    public void setIsInteracting(bool isInteracting)
+    {
+        this.isInteracting = isInteracting;
+    }//End Is Interacting Setter
     #endregion
 
     //Initialise variables on player start
@@ -88,16 +101,57 @@ public class PlayerInteraction : MonoBehaviour
             //Set other to the object being hit
             other = hitInfo.transform.gameObject;
             //Change material as indication of hit
-            other.GetComponent<MeshRenderer>().material = interactibleMaterial;
+            MeshRenderer[] children = other.GetComponentsInChildren<MeshRenderer>();
+            foreach(MeshRenderer rend in children)
+            {
+                rend.material = interactibleMaterial;
+            }//End foreach
+            //If the interaction button is used
+            if (Input.GetAxisRaw("Interact") != 0)
+            {
+                //If the button wasn't pressed last frame
+                if (interactButtonDown == false)
+                {
+                    //Run interaction function
+                    Debug.Log("Interaction with " + other.name);
+                    if(other.GetComponent<Interact>() != null)
+                    {
+                        isInteracting = true;
+                        player.GetComponentInChildren<MouseLook>().setSwivel(true);
+                        other.GetComponent<Interact>().interact();
+                    }//End if
+                    else
+                    {
+                        player.GetComponentInChildren<MouseLook>().setSwivel(false);
+                        Debug.Log("No \"Interact\" script attached to " + other.name);
+                    }//End else
+                    //Set interaction button in use to true
+                    interactButtonDown = true;
+                }//End if
+            }//End if
+            //If the interaction button is not being used
+            if (Input.GetAxisRaw("Interact") == 0)
+            {
+                //Set interaction button in use to false
+                interactButtonDown = false;
+            }//End if
         }//End if
         //If the raycast doesn't hit an interactible
         else
         {
+            //If other is not already set to null
             if(other != null)
             {
-                other.GetComponent<MeshRenderer>().material = nonInteractibleMaterial;
+                //Set the material back to being the non-interactible material
+                //Change material as indication of hit
+                MeshRenderer[] children = other.GetComponentsInChildren<MeshRenderer>();
+                foreach (MeshRenderer rend in children)
+                {
+                    rend.material = nonInteractibleMaterial;
+                }//End foreach
+                //Reset other to be null
                 other = null;
-            }
+            }//End if
         }//End else
     }//End Update
 }
