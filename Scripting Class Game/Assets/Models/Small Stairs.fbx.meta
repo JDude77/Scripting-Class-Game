@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: 5f213bf3d3f4c264191b3532b709ae8d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Stairs
+    100004: Stairs.001
+    100006: Stairs.002
+    100008: Stairs.003
+    100010: Stairs.004
+    100012: Stairs.005
+    100014: Stairs.006
+    100016: Stairs.007
+    100018: Stairs.008
+    100020: Stairs.009
+    100022: Stairs.010
+    100024: Stairs.011
+    100026: Stairs.012
+    100028: Stairs.013
+    100030: Stairs.014
+    100032: Stairs.015
+    100034: Stairs.016
+    100036: Stairs.017
+    100038: Stairs.018
+    400000: //RootNode
+    400002: Stairs
+    400004: Stairs.001
+    400006: Stairs.002
+    400008: Stairs.003
+    400010: Stairs.004
+    400012: Stairs.005
+    400014: Stairs.006
+    400016: Stairs.007
+    400018: Stairs.008
+    400020: Stairs.009
+    400022: Stairs.010
+    400024: Stairs.011
+    400026: Stairs.012
+    400028: Stairs.013
+    400030: Stairs.014
+    400032: Stairs.015
+    400034: Stairs.016
+    400036: Stairs.017
+    400038: Stairs.018
+    2100000: No Name
+    2300000: Stairs
+    2300002: Stairs.001
+    2300004: Stairs.002
+    2300006: Stairs.003
+    2300008: Stairs.004
+    2300010: Stairs.005
+    2300012: Stairs.006
+    2300014: Stairs.007
+    2300016: Stairs.008
+    2300018: Stairs.009
+    2300020: Stairs.010
+    2300022: Stairs.011
+    2300024: Stairs.012
+    2300026: Stairs.013
+    2300028: Stairs.014
+    2300030: Stairs.015
+    2300032: Stairs.016
+    2300034: Stairs.017
+    2300036: Stairs.018
+    3300000: Stairs
+    3300002: Stairs.001
+    3300004: Stairs.002
+    3300006: Stairs.003
+    3300008: Stairs.004
+    3300010: Stairs.005
+    3300012: Stairs.006
+    3300014: Stairs.007
+    3300016: Stairs.008
+    3300018: Stairs.009
+    3300020: Stairs.010
+    3300022: Stairs.011
+    3300024: Stairs.012
+    3300026: Stairs.013
+    3300028: Stairs.014
+    3300030: Stairs.015
+    3300032: Stairs.016
+    3300034: Stairs.017
+    3300036: Stairs.018
+    4300000: Stairs
+    4300002: Stairs.001
+    4300004: Stairs.002
+    4300006: Stairs.003
+    4300008: Stairs.004
+    4300010: Stairs.005
+    4300012: Stairs.006
+    4300014: Stairs.007
+    4300016: Stairs.008
+    4300018: Stairs.009
+    4300020: Stairs.010
+    4300022: Stairs.011
+    4300024: Stairs.012
+    4300026: Stairs.013
+    4300028: Stairs.014
+    4300030: Stairs.015
+    4300032: Stairs.016
+    4300034: Stairs.017
+    4300036: Stairs.018
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
