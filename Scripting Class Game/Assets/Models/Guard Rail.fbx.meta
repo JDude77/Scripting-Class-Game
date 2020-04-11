@@ -319,7 +319,17 @@ ModelImporter:
     6400098: Sphere.012
     6400100: Sphere.013
     6400102: Sphere.014
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glow.001
+    second: {fileID: 2100000, guid: 0405769eaf1b1994499a8abc120af6ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 441b17ce827729349b34b4d64014ff89, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

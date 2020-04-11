@@ -101,7 +101,12 @@ ModelImporter:
     4300032: Stairs.016
     4300034: Stairs.017
     4300036: Stairs.018
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 68b554789a7f9c24da6179f2c541e025, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

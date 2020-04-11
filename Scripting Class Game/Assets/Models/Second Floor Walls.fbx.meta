@@ -101,7 +101,12 @@ ModelImporter:
     4300032: Second Floor Walls.017
     4300034: Second Floor Walls.018
     4300036: Second Floor Walls.019
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: adba725c632e75f4b8376099544e3eae, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Quest Tracker
+  - UI
+  - Inventory
+  - Inner Door
+  - Outer Door
+  - Garage Door
   layers:
   - Default
   - TransparentFX

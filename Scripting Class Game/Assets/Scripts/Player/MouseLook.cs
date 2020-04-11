@@ -44,6 +44,7 @@ public class MouseLook : MonoBehaviour
     {
         playerBody = GetComponentInParent<CharacterController>().transform;
         Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         player = playerBody.gameObject;
     }//End Start
 

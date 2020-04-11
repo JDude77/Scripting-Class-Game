@@ -1,0 +1,425 @@
+fileFormatVersion: 2
+guid: b213d52907fffb84d98b57dceb25e228
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cylinder
+    100002: Cylinder.001
+    100004: Cylinder.002
+    100006: Cylinder.003
+    100008: Cylinder.004
+    100010: Cylinder.005
+    100012: Cylinder.006
+    100014: Cylinder.007
+    100016: Cylinder.008
+    100018: Cylinder.009
+    100020: Cylinder.010
+    100022: Cylinder.011
+    100024: Cylinder.012
+    100026: Cylinder.013
+    100028: Cylinder.014
+    100030: Cylinder.015
+    100032: Cylinder.016
+    100034: Cylinder.017
+    100036: Cylinder.018
+    100038: Cylinder.019
+    100040: Cylinder.020
+    100042: Cylinder.021
+    100044: Cylinder.022
+    100046: Cylinder.023
+    100048: Cylinder.024
+    100050: //RootNode
+    100052: Garage Floor
+    100054: Garage Floor.001
+    100056: Garage Walls
+    100058: Garage Walls.001
+    100060: Garage Walls.002
+    100062: Garage Walls.003
+    100064: Garage Walls.004
+    100066: Garage Walls.005
+    100068: Garage Walls.006
+    100070: Garage Walls.007
+    100072: Garage Walls.008
+    100074: Garage Walls.009
+    100076: Garage Walls.010
+    100078: Garage Walls.011
+    100080: Garage Walls.012
+    100082: Garage Walls.013
+    100084: Garage Walls.014
+    100086: Garage Walls.015
+    100088: Garage Walls.016
+    100090: Garage Walls.017
+    100092: Text.000
+    100094: Text.002
+    100096: Text.005
+    100098: Text.006
+    100100: Text.008
+    100102: Text.014
+    100104: Text.016
+    100106: Text.020
+    100108: Text.032
+    100110: Text.049
+    100112: Text.056
+    100114: Text.073
+    100116: Text.077
+    100118: Text.087
+    400000: Cylinder
+    400002: Cylinder.001
+    400004: Cylinder.002
+    400006: Cylinder.003
+    400008: Cylinder.004
+    400010: Cylinder.005
+    400012: Cylinder.006
+    400014: Cylinder.007
+    400016: Cylinder.008
+    400018: Cylinder.009
+    400020: Cylinder.010
+    400022: Cylinder.011
+    400024: Cylinder.012
+    400026: Cylinder.013
+    400028: Cylinder.014
+    400030: Cylinder.015
+    400032: Cylinder.016
+    400034: Cylinder.017
+    400036: Cylinder.018
+    400038: Cylinder.019
+    400040: Cylinder.020
+    400042: Cylinder.021
+    400044: Cylinder.022
+    400046: Cylinder.023
+    400048: Cylinder.024
+    400050: //RootNode
+    400052: Garage Floor
+    400054: Garage Floor.001
+    400056: Garage Walls
+    400058: Garage Walls.001
+    400060: Garage Walls.002
+    400062: Garage Walls.003
+    400064: Garage Walls.004
+    400066: Garage Walls.005
+    400068: Garage Walls.006
+    400070: Garage Walls.007
+    400072: Garage Walls.008
+    400074: Garage Walls.009
+    400076: Garage Walls.010
+    400078: Garage Walls.011
+    400080: Garage Walls.012
+    400082: Garage Walls.013
+    400084: Garage Walls.014
+    400086: Garage Walls.015
+    400088: Garage Walls.016
+    400090: Garage Walls.017
+    400092: Text.000
+    400094: Text.002
+    400096: Text.005
+    400098: Text.006
+    400100: Text.008
+    400102: Text.014
+    400104: Text.016
+    400106: Text.020
+    400108: Text.032
+    400110: Text.049
+    400112: Text.056
+    400114: Text.073
+    400116: Text.077
+    400118: Text.087
+    2100000: Garage Floor
+    2100002: Garage Wall
+    2100004: Garage Entryway
+    2100006: Garage Doors
+    2100008: Letter
+    2100010: Nail
+    2300000: Cylinder
+    2300002: Cylinder.001
+    2300004: Cylinder.002
+    2300006: Cylinder.003
+    2300008: Cylinder.004
+    2300010: Cylinder.005
+    2300012: Cylinder.006
+    2300014: Cylinder.007
+    2300016: Cylinder.008
+    2300018: Cylinder.009
+    2300020: Cylinder.010
+    2300022: Cylinder.011
+    2300024: Cylinder.012
+    2300026: Cylinder.013
+    2300028: Cylinder.014
+    2300030: Cylinder.015
+    2300032: Cylinder.016
+    2300034: Cylinder.017
+    2300036: Cylinder.018
+    2300038: Cylinder.019
+    2300040: Cylinder.020
+    2300042: Cylinder.021
+    2300044: Cylinder.022
+    2300046: Cylinder.023
+    2300048: Cylinder.024
+    2300050: Garage Floor
+    2300052: Garage Floor.001
+    2300054: Garage Walls
+    2300056: Garage Walls.001
+    2300058: Garage Walls.002
+    2300060: Garage Walls.003
+    2300062: Garage Walls.004
+    2300064: Garage Walls.005
+    2300066: Garage Walls.006
+    2300068: Garage Walls.007
+    2300070: Garage Walls.008
+    2300072: Garage Walls.009
+    2300074: Garage Walls.010
+    2300076: Garage Walls.011
+    2300078: Garage Walls.012
+    2300080: Garage Walls.013
+    2300082: Garage Walls.014
+    2300084: Garage Walls.015
+    2300086: Garage Walls.016
+    2300088: Garage Walls.017
+    2300090: Text.000
+    2300092: Text.002
+    2300094: Text.005
+    2300096: Text.006
+    2300098: Text.008
+    2300100: Text.014
+    2300102: Text.016
+    2300104: Text.020
+    2300106: Text.032
+    2300108: Text.049
+    2300110: Text.056
+    2300112: Text.073
+    2300114: Text.077
+    2300116: Text.087
+    3300000: Cylinder
+    3300002: Cylinder.001
+    3300004: Cylinder.002
+    3300006: Cylinder.003
+    3300008: Cylinder.004
+    3300010: Cylinder.005
+    3300012: Cylinder.006
+    3300014: Cylinder.007
+    3300016: Cylinder.008
+    3300018: Cylinder.009
+    3300020: Cylinder.010
+    3300022: Cylinder.011
+    3300024: Cylinder.012
+    3300026: Cylinder.013
+    3300028: Cylinder.014
+    3300030: Cylinder.015
+    3300032: Cylinder.016
+    3300034: Cylinder.017
+    3300036: Cylinder.018
+    3300038: Cylinder.019
+    3300040: Cylinder.020
+    3300042: Cylinder.021
+    3300044: Cylinder.022
+    3300046: Cylinder.023
+    3300048: Cylinder.024
+    3300050: Garage Floor
+    3300052: Garage Floor.001
+    3300054: Garage Walls
+    3300056: Garage Walls.001
+    3300058: Garage Walls.002
+    3300060: Garage Walls.003
+    3300062: Garage Walls.004
+    3300064: Garage Walls.005
+    3300066: Garage Walls.006
+    3300068: Garage Walls.007
+    3300070: Garage Walls.008
+    3300072: Garage Walls.009
+    3300074: Garage Walls.010
+    3300076: Garage Walls.011
+    3300078: Garage Walls.012
+    3300080: Garage Walls.013
+    3300082: Garage Walls.014
+    3300084: Garage Walls.015
+    3300086: Garage Walls.016
+    3300088: Garage Walls.017
+    3300090: Text.000
+    3300092: Text.002
+    3300094: Text.005
+    3300096: Text.006
+    3300098: Text.008
+    3300100: Text.014
+    3300102: Text.016
+    3300104: Text.020
+    3300106: Text.032
+    3300108: Text.049
+    3300110: Text.056
+    3300112: Text.073
+    3300114: Text.077
+    3300116: Text.087
+    4300000: Garage Floor
+    4300002: Garage Walls
+    4300004: Garage Walls.001
+    4300006: Garage Walls.002
+    4300008: Garage Walls.004
+    4300010: Garage Walls.005
+    4300012: Garage Walls.006
+    4300014: Garage Walls.007
+    4300016: Garage Walls.008
+    4300018: Garage Walls.009
+    4300020: Garage Walls.010
+    4300022: Garage Walls.003
+    4300024: Garage Walls.011
+    4300026: Garage Walls.012
+    4300028: Garage Walls.013
+    4300030: Garage Walls.014
+    4300032: Garage Walls.015
+    4300034: Garage Walls.016
+    4300036: Garage Walls.017
+    4300038: Garage Floor.001
+    4300040: Text.002
+    4300042: Text.005
+    4300044: Text.006
+    4300046: Text.014
+    4300048: Text.032
+    4300050: Text.049
+    4300052: Text.056
+    4300054: Text.073
+    4300056: Text.077
+    4300058: Text.087
+    4300060: Text.000
+    4300062: Text.008
+    4300064: Text.016
+    4300066: Text.020
+    4300068: Cylinder
+    4300070: Cylinder.001
+    4300072: Cylinder.002
+    4300074: Cylinder.003
+    4300076: Cylinder.004
+    4300078: Cylinder.005
+    4300080: Cylinder.006
+    4300082: Cylinder.007
+    4300084: Cylinder.008
+    4300086: Cylinder.009
+    4300088: Cylinder.010
+    4300090: Cylinder.011
+    4300092: Cylinder.012
+    4300094: Cylinder.013
+    4300096: Cylinder.014
+    4300098: Cylinder.015
+    4300100: Cylinder.016
+    4300102: Cylinder.017
+    4300104: Cylinder.018
+    4300106: Cylinder.019
+    4300108: Cylinder.020
+    4300110: Cylinder.021
+    4300112: Cylinder.022
+    4300114: Cylinder.023
+    4300116: Cylinder.024
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Garage Doors
+    second: {fileID: 2100000, guid: eedb3ecd005871d47b8a8735bfabbd56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Garage Entryway
+    second: {fileID: 2100000, guid: 921a746280575ac47bf7622cef69d64b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Garage Floor
+    second: {fileID: 2100000, guid: 77be332a5a4044047a3e3d36f7323dc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Garage Wall
+    second: {fileID: 2100000, guid: 547aeb27f03abda4f9007ab43bec19df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Letter
+    second: {fileID: 2100000, guid: 74914ac68a4f5b144a1854e8ceaacbe0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nail
+    second: {fileID: 2100000, guid: c1ed8bab5afc4864da7dd8fee9ae0141, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

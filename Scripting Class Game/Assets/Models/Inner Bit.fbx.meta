@@ -61,7 +61,12 @@ ModelImporter:
     4300016: Small Room Walls.009
     4300018: Small Room Walls.010
     4300020: Small Room Walls.011
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: adba725c632e75f4b8376099544e3eae, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
